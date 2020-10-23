@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
 
-export default function home() {
+export default function staff() {
   return (
     <Layout>
-      <h1>Home Page</h1>
+      <h1>Staff Page</h1>
     </Layout>
   )
 }
