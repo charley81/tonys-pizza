@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 export default function menu() {
   return (
     <Layout>
-      <h1>Menus Page</h1>
+      <h1>Menu Page</h1>
     </Layout>
   )
 }
