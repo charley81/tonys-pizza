@@ -9,7 +9,13 @@ export default function Layout({ children }) {
     <>
       <Global styles={globalStyles} />
       <Header />
-      <main>{children}</main>
+      <main
+        css={css`
+          margin-top: 10vh;
+        `}
+      >
+        {children}
+      </main>
       <footer></footer>
     </>
   )

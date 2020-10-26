@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import NavLinks from './NavLinks'
 import styled from '@emotion/styled'
-import { Link } from 'gatsby'
 import Logo from './Logo'
 
 const Navigation = styled('nav')`
@@ -10,7 +9,6 @@ const Navigation = styled('nav')`
   justify-content: space-between;
   align-items: center;
   position: relative;
-  border-bottom: 2px solid var(--medColor);
   margin: 0 auto;
   padding: 0 5vw;
   z-index: 2;
@@ -55,7 +53,7 @@ const Navbox = styled('div')`
   }
 `
 const Hamburger = styled('div')`
-  background: var(--darkColor);
+  background: var(--primaryColor);
   width: 30px;
   height: 3px;
   transition: var(--transition);
@@ -67,7 +65,7 @@ const Hamburger = styled('div')`
   ::after {
     width: 30px;
     height: 3px;
-    background-color: var(--darkColor);
+    background-color: inherit;
     content: '';
     position: absolute;
     transition: var(--transition);
